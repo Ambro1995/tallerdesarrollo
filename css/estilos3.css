@@ -1,0 +1,275 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #3D3D3D;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;;
+}
+
+#cuerpo{
+  width: 90%;
+  max-width: 1280px;
+  margin: 0px auto;
+  display: grid;
+  grid-gap: 2px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(5, auto;)
+}
+
+#contenedor_izquierda{
+  width: 90%;
+  height: 600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+#contenedor_izquierda > div{
+  border-radius: 20px;
+  display: block;
+  padding: 10px;
+  color: #fff;
+  background: #3CA3B8;
+  margin: 10px;
+}
+
+#cuerpo > div,
+#cuerpo #header,
+#cuerpo #menu,
+#cuerpo #contenido_izq,
+#cuerpo #contenido_izq1,
+#cuerpo #contenido_izq2,
+#cuerpo #contenido_izq3,
+#cuerpo #contenido_der,
+#cuerpo #footer{
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+#cuerpo #header{
+  background: url(../imagen/header.jpg);
+  background-size: 100% 100%;
+  text-shadow: 2px 2px 2px black;
+  color: #ffffff;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  text-align: center;
+  height: 130px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#cuerpo #menu{
+  background: #ffffff;
+  color: #09667D;
+  grid-column-start: 1;
+  grid-column-end: 13;
+
+}
+
+#cuerpo #contenido_izq{
+  background: #09667D;
+  color: #ffffff;
+  grid-column-start: 1;
+  grid-column-end: 8;
+  justify-content:
+  center; align-items: center;
+}
+
+#cuerpo #contenido_izq1{
+  background: #09667D;
+  color: #ffffff;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  justify-content:
+  center; align-items: center;
+}
+#cuerpo #contenido_izq2{
+  background: #09667D;
+  color: #ffffff;
+  grid-column-start: 5;
+  grid-column-end: 9;
+  justify-content:
+  center; align-items:center;
+}
+
+#cuerpo #contenido_izq3{
+  background: #09667D;
+  color: #ffffff;
+  grid-column-start: 9;
+  grid-column-end: 13;
+  justify-content:
+  center; align-items:center;
+}
+
+
+
+button:hover{
+  background: #09667D;
+}
+
+#cuerpo #contenido_der{
+  background: #3CA3B8;
+  color: #ffffff;
+  grid-column-start: 8;
+  grid-column-end: 13;
+  justify-content: center;
+  align-items: center;
+}
+
+#cuerpo #footer{
+  background: #2E4059;
+  color: #ffffff;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#cajon1{
+  background: url(../imagen/caja1.jpg);
+  background-size: 100% 100%;
+  color: #ffffff;
+  display: flex;
+  height: 90px;
+  width: 90px;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  margin: 10px;
+}
+
+#cajon2{
+  background: url(../imagen/caja2.jpg);
+  background-size: 100% 100%;
+  color: #ffffff;
+  display: flex;
+  height: 90px;
+  width: 90px;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  margin: 10px;
+}
+
+#cajon3{
+  background: url(../imagen/caja3.jpg);
+  background-size: 100% 100%;
+  color: #ffffff;
+  display: flex;
+  height: 90px;
+  width: 90px;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  margin: 10px;
+}
+
+#cajon4{
+  background: url(../imagen/caja4.jpg);
+  background-size: 100% 100%;
+  color: #ffffff;
+  display: flex;
+  height: 90px;
+  width: 90px;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  margin: 10px;
+}
+
+#cajon1:hover{
+  background: #09667D;
+  padding: 2px;
+}
+
+#cajon2:hover{
+  background: #09667D;
+  padding: 2px;
+}
+
+#cajon3:hover{
+  background: #09667D;
+  padding: 2px;
+}
+
+#cajon4:hover{
+  background: #09667D;
+  padding: 2px;
+}
+
+#circulo_medio{
+  background: url(../imagen/jairo.jpg);
+  background-size: 100% 100%;
+  color: #ffffff;
+  border-radius: 100px;
+  height: 150px;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#circulo_medio1{
+  background: url(../imagen/yolanda.jpg);
+  background-size: 100% 100%;
+  color: #ffffff;
+  border-radius: 100px;
+  height: 150px;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#circulo_medio2{
+  background: url(../imagen/juliana.jpg);
+  background-size: 100% 100%;
+  color: #ffffff;
+  border-radius: 100px;
+  height: 150px;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+
+
+nav{
+ vertical-align: middle;
+ height: 20px;
+}
+nav ul{
+ display: grid;
+ float: right;
+}
+nav ul li {
+ display: inline-block;
+ margin-left: 20px;
+}
+
+nav ul li a{
+ text-decoration: none;
+ color: #09667D;
+ font-size: 1.0em;
+ padding: 20px;
+ padding-bottom: 23px;
+}
+
+a:link{
+ color: #09667D;
+}
+li a:hover{
+    background: #429AE3;
+    color: #000000;
+}
